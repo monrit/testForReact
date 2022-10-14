@@ -1,0 +1,151 @@
+body {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 18% auto;
+    padding: 4px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    width: 40%;
+}
+
+.modal-content>h3 {
+    text-align: center;
+    margin-top: 4px;
+}
+
+#myFieldset {
+    max-width: 400px;
+    min-width: 300px;
+    text-align: left;
+    height: 210px;
+    border: 2px black solid;
+}
+
+#myFieldset>input {
+    margin: 0 12px;
+    width: 350px;
+    min-width: 280px;
+    height: 24px;
+    border: 2px black solid;
+}
+
+#myFieldset>label {
+    margin: 0 12px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+#wrapper {
+    margin-top: 12%;
+    text-align: center;
+}
+
+#myForm {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+#openModal {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+/* CSS */
+.button-50 {
+    appearance: button;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: rgb(0, 0, 0) 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Brush Script MT', cursive;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 2px 4px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-50:focus {
+    text-decoration: none;
+}
+
+.button-50:hover {
+    text-decoration: none;
+}
+
+.button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button-50:not([disabled]):active {
+    box-shadow: rgb(255, 255, 255) 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-50 {
+        padding: 4px 16px;
+    }
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    box-shadow: rgb(255, 255, 255) 4px 4px 0 0, #000 4px 4px 0 1px;
+}
+
+.black:not([disabled]):active {
+    box-shadow: rgb(0, 0, 0) 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+.btnModal {
+    margin-left: 50%;
+}
+
+.greeting {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    width: 540px;
+    height: 360px;
+    margin: 0 auto;
+}
